@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://tempuser:123@cluster0.f9d6o.gcp.mongodb.net/Exams23002",
+  "mongodb+srv://lera:12345@cluster0.rqflecp.mongodb.net/?retryWrites=true&w=majority",
 
   {
     useNewUrlParser: true,
